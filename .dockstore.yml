@@ -2,5 +2,5 @@ version: 1.2
 workflows:
    - subclass: cwl
      primaryDescriptorPath: /Dockstore.cwl
-     kjdashfaksjdhfkasjdhf:
+     files:
      - /test/dockstore.cwl.json
