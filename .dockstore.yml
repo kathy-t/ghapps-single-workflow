@@ -5,4 +5,4 @@ workflows:
      testParameterFiles:
      - /test/dockstore.cwl.json
      authors:
-     - name: Kathy Test
+     - name: Kathy Tran
