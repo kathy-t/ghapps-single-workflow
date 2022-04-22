@@ -5,4 +5,4 @@ workflows:
      testParameterFiles:
      - /test/dockstore.cwl.json
      authors:
-     - name: ApiGAteway Test
+     - name: Original Test
