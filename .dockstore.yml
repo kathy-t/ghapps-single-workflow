@@ -1,10 +1,10 @@
 version: 1.2
 workflows:
    - subclass: cwl
-     primaryDescriptorPath: /Dockstore.foo
-     testParameterFilets:
+     primaryDescriptorPath: /Dockstore.cwl
+     testParameterFiles:
      - /test/dockstore2.cwl.json
-     authors:
+     authours:
      - orcid: 0000-0003-1072-5630 
      - orcid: 0000-0001-7641-7724 
      - name: Dockstore Yml Author
