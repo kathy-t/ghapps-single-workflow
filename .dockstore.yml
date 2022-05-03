@@ -3,7 +3,7 @@ workflows:
    - subclass: cwl
      primaryDescriptorPath: /Dockstore2.cwl
      testParameterFiles:
-     - /test/dockstore.cwl.json
+     - /test/dockstore2.cwl.json
      authors:
      - orcid: 0000-0003-1072-5630 
      - orcid: 0000-0001-7641-7724 
