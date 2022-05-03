@@ -1,7 +1,7 @@
 version: 1.2
 workflows:
-   - subclass: foo
-     primaryDescriptorPath: /Dockstore.foo
+   - subclass: cwl
+     primaryDescriptorPaths: /Dockstore.cwl
      testParameterFiles:
      - /test/dockstore2.cwl.json
      authors:
