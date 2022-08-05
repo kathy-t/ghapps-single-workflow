@@ -3,7 +3,7 @@ class: CommandLineTool
 doc: updated description testing 1.9.2!
 dct:creator:
   foaf:name: Kathy Tran
-  foaf:mbox: foobar1@email.com
+  foaf:mbox: august5test@email.com
 
 inputs:
   input_file: File
