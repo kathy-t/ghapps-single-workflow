@@ -4,7 +4,7 @@ workflows:
      primaryDescriptorPath: /Dockstore.cwl
      testParameterFiles:
      - /test/dockstore2.cwl.json
-     authours:
+     authors:
      - orcid: 0000-0003-1072-5630 
      - orcid: 0000-0001-7641-7724 
      - name: Core update GH apps test
