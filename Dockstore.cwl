@@ -1,5 +1,5 @@
 cwlVersion: v1.0
-class: CommandLineTool
+class: Workflow
 doc: updated description testing 1.9.2! Descriptor description update default version
 dct:creator:
   foaf:name: Kathy Tran
