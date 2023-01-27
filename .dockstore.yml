@@ -9,4 +9,3 @@ workflows:
      - orcid: 0000-0001-7641-7724 
      - name: Test Author 2
      name: foo
-     name: bar
