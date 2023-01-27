@@ -8,4 +8,4 @@ workflows:
      - orcid: 0000-0003-1072-5630 
      - orcid: 0000-0001-7641-7724 
      - name: Test Author 2
-     name: foo-wdl
+     name: foo
