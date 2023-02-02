@@ -1,4 +1,4 @@
-cwlVersion: v1.0
+cwlVersion: v1.1
 class: Workflow
 doc: updated description testing 1.9.2
 dct:creator:
