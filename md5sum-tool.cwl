@@ -3,7 +3,7 @@
 class: CommandLineTool
 id: Md5sum
 label: Simple md5sum tool
-cwlVersion: v1.0
+cwlVersion: v1.1
 
 $namespaces:
   dct: http://purl.org/dc/terms/
