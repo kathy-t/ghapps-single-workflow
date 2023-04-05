@@ -1,6 +1,5 @@
 cwlVersion: v1.0
 class: Workflow
-#doc: updated description testing 1.9.2! Descriptor description update default version
 dct:creator:
   foaf:name: Kathy Tran
   foaf:mbox: august5test@email.com
