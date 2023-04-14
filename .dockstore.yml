@@ -4,8 +4,8 @@ workflows:
      primaryDescriptorPath: /Dockstore.cwl
      testParameterFiles:
      - /test/dockstore2.cwl.json
-     authors:
-     - name: DockstoreYml Author
+#      authors:
+#      - name: DockstoreYml Author
    - subclass: cwl
      name: foo
      readMePath: /foo/README.md
