@@ -4,12 +4,12 @@ workflows:
      primaryDescriptorPath: /Dockstore.cwl
      testParameterFiles:
      - /test/dockstore2.cwl.json
-#      authors:
-#      - name: DockstoreYml Author 1
-#      - name: DockstoreYml Author 2
-#      - name: DockstoreYml Author 3
-#      - name: DockstoreYml Author 4
-#      - orcid: 0000-0001-7641-7724
+     authors:
+     - name: DockstoreYml Author 1
+     - name: DockstoreYml Author 2
+     - name: DockstoreYml Author 3
+     - name: DockstoreYml Author 4
+     - orcid: 0000-0001-7641-7724
    - subclass: cwl
      name: foo
      readMePath: /foo/README.md
