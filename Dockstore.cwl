@@ -1,5 +1,7 @@
 cwlVersion: v1.0
 class: Workflow
+doc: This description is from the descriptor!
+
 dct:creator:
   foaf:name: Kathy Tran
   foaf:mbox: august5test@email.com
