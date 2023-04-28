@@ -13,7 +13,7 @@ workflows:
      - orcid: 0000-0002-6130-1021
    - subclass: cwl
      name: foo
-     #readMePath: /bar/README.md
+     readMePath: /foo/README.md
      primaryDescriptorPath: /Dockstore.cwl
      testParameterFiles:
      - /test/dockstore2.cwl.json
