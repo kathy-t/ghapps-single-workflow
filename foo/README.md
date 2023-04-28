@@ -1,1 +1,1 @@
-This is foo's README.
+This is foo's README. It references [this](./bar.txt) file.
