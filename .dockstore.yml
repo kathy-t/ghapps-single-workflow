@@ -24,3 +24,8 @@ workflows:
      primaryDescriptorPath: /Dockstore.cwl
      testParameterFiles:
      - /test/dockstore2.cwl.json
+   - name: bad-workflow-2
+     readMePath: /foo/README.md
+     primaryDescriptorPath: /Dockstore.cwl
+     testParameterFiles:
+     - /test/dockstore2.cwl.json
