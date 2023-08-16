@@ -11,7 +11,7 @@ workflows:
      - name: DockstoreYml Author 4
      #- orcid: 0000-0001-7641-7724
      - orcid: 0000-0002-6130-1021
-     - name: Author for SQS webhook test
+     - name: Author for SQS webhook test 2
    - subclass: badsubclass
      name: bad-workflow
      readMePath: /foo/README.md
