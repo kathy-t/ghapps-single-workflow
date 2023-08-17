@@ -12,20 +12,20 @@ workflows:
      #- orcid: 0000-0001-7641-7724
      - orcid: 0000-0002-6130-1021
      - name: Author for SQS webhook test 2
-   - subclass: badsubclass
-     name: bad-workflow
-     readMePath: /foo/README.md
-     primaryDescriptorPath: /Dockstore.cwl
-     testParameterFiles:
-     - /test/dockstore2.cwl.json
+   # - subclass: badsubclass
+   #   name: bad-workflow
+   #   readMePath: /foo/README.md
+   #   primaryDescriptorPath: /Dockstore.cwl
+   #   testParameterFiles:
+   #   - /test/dockstore2.cwl.json
    - subclass: cwl
      name: foo
      readMePath: /foo/README.md
      primaryDescriptorPath: /Dockstore.cwl
      testParameterFiles:
      - /test/dockstore2.cwl.json
-   - name: bad-workflow-2
-     readMePath: /foo/README.md
-     primaryDescriptorPath: /Dockstore.cwl
-     testParameterFiles:
-     - /test/dockstore2.cwl.json
+   # - name: bad-workflow-2
+   #   readMePath: /foo/README.md
+   #   primaryDescriptorPath: /Dockstore.cwl
+   #   testParameterFiles:
+   #   - /test/dockstore2.cwl.json
