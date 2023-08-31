@@ -11,7 +11,7 @@ workflows:
      - name: DockstoreYml Author 4
      #- orcid: 0000-0001-7641-7724
      - orcid: 0000-0002-6130-1021
-     - name: QA X-GitHub-Delivery test
+     - name: QA test
    # - subclass: badsubclass
    #   name: bad-workflow
    #   readMePath: /foo/README.md
