@@ -19,6 +19,6 @@ workflows:
      readMePath: /foo/README.md
      primaryDescriptorPath: /Dockstore.cwl
      authors:
-     - name: SEAB-5999 test
+     - name: sort entry name
      testParameterFiles:
      - /test/dockstore2.cwl.json
