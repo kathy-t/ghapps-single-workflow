@@ -2,7 +2,7 @@ cwlVersion: v1.0
 class: Workflow
 
 dct:creator:
-  foaf:name: Kathy Tran
+  foaf:name: Kathy Tran checksum test
   foaf:mbox: august5test@email.com
 
 inputs:
