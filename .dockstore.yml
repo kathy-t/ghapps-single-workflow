@@ -19,3 +19,6 @@ workflows:
      - name: sort entry name
      testParameterFiles:
      - /test/dockstore2.cwl.json
+   - subclass: cwl
+     name: defaultVersionTest
+     primaryDescriptorPath: /Dockstore.cwl
