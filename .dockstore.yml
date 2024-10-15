@@ -22,3 +22,7 @@ workflows:
    - subclass: cwl
      name: defaultVersionTest
      primaryDescriptorPath: /Dockstore.cwl
+   - subclass: cwl
+     name: defaultVersionTestPublish
+     primaryDescriptorPath: /Dockstore.cwl
+     publish: true
