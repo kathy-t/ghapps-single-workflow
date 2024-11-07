@@ -9,7 +9,7 @@ workflows:
      - name: DockstoreYml Author 1
      #- orcid: 0000-0001-7641-7724
      - orcid: 0000-0002-6130-1021
-     - name: Staging test
+     - name: Prod test
    - subclass: cwl
      topic: This is a different topic from the .dockstore.yml
      name: foo
