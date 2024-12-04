@@ -3,6 +3,7 @@ workflows:
    - subclass: cwl
      topic: 'This is a manual GitHub Apps workflow topic'
      primaryDescriptorPath: /Dockstore.cwl
+     disableDoiGeneration: false
      testParameterFiles:
      - /test/dockstore2.cwl.json
      authors:
