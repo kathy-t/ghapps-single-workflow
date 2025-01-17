@@ -9,6 +9,7 @@ jobs:
     env:
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     steps:
+      - uses: actions/checkout@v4
       - uses: actions-ecosystem/action-push-tag@v1
         with:
           tag: bot-doi-alias
