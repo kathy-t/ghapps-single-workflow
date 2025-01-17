@@ -9,10 +9,10 @@ jobs:
     env:
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     steps:
-      - id: release
-        uses: rymndhng/release-on-push-action@master
+      - uses: actions-ecosystem/action-push-tag@v1
         with:
-          bump_version_scheme: minor
-          tag_prefix: v
-          release_name: "Bot test"
+          tag: bot-doi-alias
+          message: 'Bot DOI alias test'
+
+
         
