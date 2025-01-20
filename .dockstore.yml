@@ -1,7 +1,7 @@
 version: 1.2
 workflows:
    - subclass: cwl
-     topic: 'Test expired token 3'
+     topic: 'Test expired token 4'
      primaryDescriptorPath: /Dockstore.cwl
      testParameterFiles:
      - /test/dockstore2.cwl.json
