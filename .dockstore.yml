@@ -16,6 +16,7 @@ workflows:
      name: foo
      readMePath: /foo/README.md
      primaryDescriptorPath: /Dockstore.cwl
+     enableAutoDois: false
      authors:
      - name: sort entry name
      testParameterFiles:
@@ -23,7 +24,8 @@ workflows:
    - subclass: cwl
      name: defaultVersionTest
      primaryDescriptorPath: /Dockstore.cwl
+     enableAutoDois: false
    - subclass: cwl
      name: defaultVersionTestPublish
      primaryDescriptorPath: /Dockstore.cwl
-     publish: true
+     enableAutoDois: false
