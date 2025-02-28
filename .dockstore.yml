@@ -3,7 +3,7 @@ workflows:
    - subclass: cwl
      topic: 'Test expired token 4'
      primaryDescriptorPath: /Dockstore.cwl
-     enableAutoDois: false
+     enableAutoDois: true
      testParameterFiles:
      - /test/dockstore2.cwl.json
      authors:
