@@ -1,7 +1,7 @@
 version: 1.2
 workflows:
    - subclass: cwl
-     topic: 'Test expired token 4'
+     topic: 'doi test'
      primaryDescriptorPath: /Dockstore.cwl
      enableAutoDois: true
      testParameterFiles:
@@ -16,7 +16,7 @@ workflows:
      name: foo
      readMePath: /foo/README.md
      primaryDescriptorPath: /Dockstore.cwl
-     enableAutoDois: false
+     enableAutoDois: true
      authors:
      - name: sort entry name
      testParameterFiles:
@@ -24,8 +24,8 @@ workflows:
    - subclass: cwl
      name: defaultVersionTest
      primaryDescriptorPath: /Dockstore.cwl
-     enableAutoDois: false
+     enableAutoDois: true
    - subclass: cwl
      name: defaultVersionTestPublish
      primaryDescriptorPath: /Dockstore.cwl
-     enableAutoDois: false
+     enableAutoDois: true
