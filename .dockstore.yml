@@ -30,4 +30,4 @@ workflows:
      primaryDescriptorPath: /Dockstore.cwl
      enableAutoDois: false
      authors:
-     - name: Test Author new deploy
+     - name: Test Author redeploy
