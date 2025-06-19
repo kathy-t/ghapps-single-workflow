@@ -29,3 +29,5 @@ workflows:
      name: defaultVersionTestPublish
      primaryDescriptorPath: /Dockstore.cwl
      enableAutoDois: false
+     authors:
+     - name: Test Author
