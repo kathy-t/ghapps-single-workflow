@@ -3,7 +3,7 @@ workflows:
    - subclass: cwl
      topic: 'doi test'
      primaryDescriptorPath: /Dockstore.cwl
-     enableAutoDois: true
+     enableAutoDois: false
      testParameterFiles:
      - /test/dockstore2.cwl.json
      authors:
@@ -16,7 +16,7 @@ workflows:
      name: foo
      readMePath: /foo/README.md
      primaryDescriptorPath: /Dockstore.cwl
-     enableAutoDois: true
+     enableAutoDois: false
      authors:
      - name: sort entry name
      testParameterFiles:
@@ -24,8 +24,8 @@ workflows:
    - subclass: cwl
      name: defaultVersionTest
      primaryDescriptorPath: /Dockstore.cwl
-     enableAutoDois: true
+     enableAutoDois: false
    - subclass: cwl
      name: defaultVersionTestPublish
      primaryDescriptorPath: /Dockstore.cwl
-     enableAutoDois: true
+     enableAutoDois: false
