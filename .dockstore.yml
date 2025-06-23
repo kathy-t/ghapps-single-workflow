@@ -24,7 +24,7 @@ workflows:
    - subclass: cwl
      name: defaultVersionTest
      primaryDescriptorPath: /Dockstore.cwl
-     enableAutoDois: false
+     enableAutoDois: true
    - subclass: cwl
      name: defaultVersionTestPublish
      primaryDescriptorPath: /Dockstore.cwl
