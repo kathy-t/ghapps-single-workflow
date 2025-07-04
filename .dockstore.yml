@@ -30,4 +30,4 @@ workflows:
      primaryDescriptorPath: /Dockstore.cwl
      enableAutoDois: true
      authors:
-     - name: Test Author test fifo
+     - name: Test Author test develop
